@@ -65,7 +65,11 @@ div.imagem p{
     background-color: rgba(0, 0, 0, 0.425);
     border-radius: 10px;
 }
-section h2{
+h2{
+    text-align: center;
+    padding-bottom: 10px;
+}
+h2.estilo{
     background-image: linear-gradient(to right, #E67C69, #e67c698c, #e67c6900);
     border-radius: 10px;
     padding: 6px;
