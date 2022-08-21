@@ -4,7 +4,6 @@
 *{
     margin: 0px;
     padding: 0px;
-    
 }
 :root{
     --cor1:#e1ecd6;
@@ -18,7 +17,7 @@
 }
 header{
     font-family:'Titillium Web', sans-serif;
-    padding: 120px;
+    padding: 100px;
     background: url(media/background-header.png) center center;
     color: white;
 }
@@ -26,6 +25,7 @@ header > h1{
     text-align: center;
     font-size: 4em;
     font-variant: small-caps;
+    padding-bottom: 30px;
 }
 header p{
     text-align: center;
@@ -38,23 +38,27 @@ a:hover{
     text-decoration: underline;
     color: var(--cor5);
 }
-p{
+body{
+    background-image: linear-gradient(to bottom,#aee1d3, #7cd7cf, #49cccc);
+    margin: auto;
     line-height: 1.6em;
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
-}
-html{
-    background-image: linear-gradient(to bottom,#aee1d3, #7cd7cf, #49cccc);
 }
 section{
     max-width: 900px;
     margin: auto;
     background-color: white;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.329);
-    padding: 10px;
-    font-family:'Poppins', sans-serif;
+    padding: 30px;
 }
+
 h2{
     text-align: justify;
     padding: 15px 0px;
+}
+.centralizar{
+    margin: auto;
+    text-align: center;
+    padding: 10px 0px;
 }
