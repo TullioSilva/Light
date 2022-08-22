@@ -1,10 +1,9 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Titillium+Web&display=swap');
 *{
     margin: 0px;
     padding: 0px;
-    
 }
 :root{
     --cor1:#e1ecd6;
@@ -13,49 +12,80 @@
     --cor4:#49cccc;
     --cor5:#16c1c8;
 }
+nav{
+    background-color: black;
+    font-family:'Titillium Web', sans-serif;
+    text-align: center;
+    padding: 10px 0px;
+}
+nav > a{
+    display: inline-block;
+    padding: 0px 20px;
+    color: white;
+}
+nav >a:hover{
+    color: white;
+}
 header{
-    font-family:'Roboto', sans-serif;
-    background-color: var(--cor1);
-    padding: 40px;
+    font-family:'Titillium Web', sans-serif;
+    padding: 100px;
+    background: url(media/background-header.png) center center;
+    color: white;
 }
 header > h1{
     text-align: center;
     font-size: 4em;
     font-variant: small-caps;
+    padding-bottom: 30px;
 }
 header p{
     text-align: center;
 }
-html{
+a{
+    text-decoration: none;
+    color: var(--cor5);
+}
+a:hover{
+    text-decoration: underline;
+    color: var(--cor5);
+}
+body{
     background-image: linear-gradient(to bottom,#aee1d3, #7cd7cf, #49cccc);
+    margin: auto;
+    line-height: 1.6em;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
 }
 section{
-    max-width: 850px;
-    text-align: justify;
+    max-width: 900px;
     margin: auto;
     background-color: white;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.329);
-    padding: 10px;
-    line-height: 1.5em;
-    font-family:'Poppins', sans-serif;
+    padding: 30px;
 }
-section h1{
-    font-size: 1.4em;
+section img{
+    width: 30%;
+}
+h2{
+    text-align: justify;
+    padding: 15px 0px;
+}
+.centralizar{
+    margin: auto;
     text-align: center;
-    padding-bottom: 10px;
+    padding: 10px 0px;
+}
+.centralizar img{
+    width: 550px;
+    max-width: 100%;
 }
 
-div.imagem{
-    background: black url(media/lofigirl.png) left top no-repeat fixed;
-    background-size: cover;
-    padding: 50px;
-    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.473);
-    margin: 0px -10px 0px -10px;
-}
-div.imagem p{
-    max-width: 400px;
+footer p{
+    background-color: #333333;
+    text-align: center;
     color: white;
-    padding: 30px;
-    background-color: rgba(0, 0, 0, 0.425);
-    border-radius: 10px;
+}
+
+footer a:hover{
+    color:white;
 }
