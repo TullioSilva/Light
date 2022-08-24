@@ -54,7 +54,6 @@ body{
     margin: auto;
     line-height: 1.6em;
     font-family: 'Open Sans', sans-serif;
-    text-align: justify;
 }
 section{
     max-width: 900px;
@@ -73,13 +72,24 @@ h2{
 .centralizar{
     margin: auto;
     text-align: center;
-    padding: 10px 0px;
 }
 .centralizar img{
     width: 550px;
     max-width: 100%;
 }
-
+.centralizar p{
+    background-color: whitesmoke;
+    font-size: smaller;
+    width: 550px;
+    max-width: 100%;
+    margin: auto;
+    padding: 10px 0px;
+    margin-top: -7px;
+    margin-bottom: 10px;
+}
+.citar{
+    text-align: center;
+}
 footer p{
     background-color: #333333;
     text-align: center;
